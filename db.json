@@ -1,0 +1,30 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "sobrenome": "Silva",
+      "cpf": "123.456.789-00",
+      "email": "maria@email.com",
+      "senha": "123",
+      "rua": "Rua das Flores, 45",
+      "cep": "08000-000",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "(11) 98888-7777"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "sobrenome": "Santos",
+      "cpf": "111.222.333-44",
+      "email": "pedro@email.com",
+      "senha": "123",
+      "rua": "Av. Brasil, 100",
+      "cep": "01000-000",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "(11) 97777-6666"
+    }
+  ]
+}

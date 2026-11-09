@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Cadastrados</h1>
+
+    <div>
+        <label>Buscar por CPF:</label>
+        <input type="text" id="cpfBusca">
+        <button onclick="buscarPorCPF()">Buscar</button>
+        <button onclick="carregarTabela()">Mostrar Todos</button>
+    </div>
+    <br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Nome:</td>
+                <td>Sobrenome:</td>
+                <td>CPF:</td>
+                <td>Email:</td>
+                <td>Rua:</td>
+                <td>CEP:</td>
+                <td>Cidade:</td>
+                <td>Estado:</td>
+                <td>Telefone:</td>
+                <td>Ações:</td>
+            </tr>
+        </thead>
+        <tbody id="tabela-corpo"></tbody>
+    </table>
+
+    <br>
+    <a href="index.html">Cadastro</a>
+    <br>
+    <a href="get.html">Cadastrados</a>
+    <br>
+    <a href="delete.html">Deletar</a>
+    <br>
+    <a href="put.html">Atualizar</a>
+    <script src="get.js"></script>
+</body>
+</html>
